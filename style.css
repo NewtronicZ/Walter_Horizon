@@ -26,7 +26,11 @@
     text-decoration: none;
     margin-left: 80px;
     font-size: large;
-    font-size:20px;
+    font-size: 20px;
+}
+
+.logo a:hover {
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px blue;
 }
 
 .navbar ul {
@@ -39,10 +43,14 @@
     color: #fff;
     text-decoration: none;
     margin: 1rem;
-    font-size:20px;
+    font-size: 20px;
 }
 
-.banner{
+.navbar li a:hover {
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px blue;
+}
+
+.banner {
     display: flex;
     justify-content: center;
     height: 1000px;
@@ -50,14 +58,56 @@
 
 .hero h1 {
     margin-top: 18rem;
-    color:#fff;
-    font-size:60px;
+    color: #fff;
+    font-size: 60px;
     text-align: center;
 }
 
 .hero p {
     margin-top: 1rem;
-    color:#fff;
-    font-size:45px;
+    color: #fff;
+    font-size: 45px;
     text-align: center;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+footer h4 {
+    color: #fff;
+    margin: auto;
+}
+
+@media screen and (max-width: 820px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo a {
+        margin: auto;
+    }
+
+    .navbar {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .navbar li {
+        margin: 10px;
+    }
+
+    .hero h1,
+    .hero p {
+        font-size: 40px;
+    }
 }
