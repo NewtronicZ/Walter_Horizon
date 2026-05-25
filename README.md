@@ -1,5 +1,5 @@
 # Walter_Horizon
-Project to get a certificate from Born2Dev School
+Project to get a certificate from Born2Dev School </n>
 https://newtronicz.github.io/Walter_Horizon/
 
 <img width="1905" height="909" alt="image" src="https://github.com/user-attachments/assets/58ecfb52-d401-4878-b241-48660329aa05" />
